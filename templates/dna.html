@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>DNA Decoder</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="top">
+    <h1>DNA Decoder</h1>
+    
+    <p>DNA Decoder helps you read and decode a string od DNA. All you have to do is paste your DNA sample in the area bellow and hit the "Decode" button.</p>
+    </div>
+    
+    <div class="mab">
+    <h2>Enter DNA here:</h2>
+        
+    <form method="post" action="/" autocomplete="off">
+        <textarea name="vnos"></textarea>
+        <br>
+        <button type="submit">Decode</button>
+    </form>
+    <br>
+    <h2>Results:</h2>
+    <p>Hair color: <span>{{ hair }}</span></p>
+    <p>Face shape: <span>{{ facial_shape }}</span></p>
+    <p>Eye color: <span>{{ eye_color }}</span></p>
+    <p>Gender: <span>{{ gender }}</span></p>
+    <p>Race: <span>{{ race }}</span></p>
+    </div>
+    
+</body>
+</html>
